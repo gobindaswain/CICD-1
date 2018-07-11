@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-- source: /var/
-- destination: /var/www/html
+- source: /var/www/html/new.html
+destination: /var/www/html/index.html
 hooks:
 BeforeInstall:
 - location: scripts/install_dependencies.sh
