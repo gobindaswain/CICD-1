@@ -1,8 +1,5 @@
 version: 0.0
 os: linux
-files:
-- source: /var/script/
-destination: /var/www/
 hooks:
 BeforeInstall:
 - location: scripts/install_dependencies.sh
