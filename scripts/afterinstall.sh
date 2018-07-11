@@ -1,0 +1,2 @@
+echo "After installation "
+date
