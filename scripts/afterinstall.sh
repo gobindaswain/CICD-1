@@ -1,2 +1,3 @@
-echo "After installation "
-date
+
+#!/bin/bash
+service apache2 restart
