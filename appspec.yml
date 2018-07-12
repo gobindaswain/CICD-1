@@ -5,11 +5,11 @@ files:
   destination: /var/scripts/
   hooks:
   BeforeInstall:
-    - location: apache_stop.sh
+    - location: BeforeInstall.sh
       timeout: 300
       runas: root
   AfterInstall:
-    - location: afterinstall.sh
+    - location: AfterInstall.sh
       timeout: 300
       runas: root
   ApplicationStart:
