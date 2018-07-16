@@ -1,1 +1,2 @@
-#!/bin/bashsudo service apache2 restart
+#!/bin/bash
+sudo service apache2 restart
