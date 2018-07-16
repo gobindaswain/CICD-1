@@ -1,0 +1,1 @@
+#!/bin/bashsudo service apache2 restart
